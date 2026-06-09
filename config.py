@@ -4,7 +4,7 @@ from dataclasses import dataclass
  
 @dataclass
 class Config:
-    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "")
+    BOT_TOKEN: str = os.getenv("BOT_TOKEN", "8951619112:AAFeihc9UtCxpx-jrGplUqU8t3IZEf8SmoM")
     DATABASE_URL: str = os.getenv("DATABASE_URL", "postgresql://user:password@localhost:5432/savdo_bot")
     
     # Admin IDs (vergul bilan ajratilgan)
